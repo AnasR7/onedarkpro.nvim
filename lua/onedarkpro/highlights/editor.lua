@@ -14,7 +14,7 @@ function M.groups(theme)
         CursorLine = { bg = config.options.cursorline and theme.generated.cursorline or theme.palette.bg }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
         CursorLineNr = {
             bg = config.options.cursorline and theme.generated.cursorline or theme.palette.bg,
-            fg = theme.palette.purple,
+            fg = theme.palette.red,
             style = config.options.bold,
         }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
         Directory = { fg = theme.palette.blue }, -- directory names (and other special names in listings)
